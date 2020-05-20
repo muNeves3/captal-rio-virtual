@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #79DBD2;
+
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Roboto', sans-serif;    
+
+    display: grid;
+    align-items: center;
+    justify-content: center;    
+}
+
+main{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding: 0;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button #botao{
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main #botao{
+    margin-top: 10vh;
+
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    background-color: #f53279;
+    color: #f3f3f3;
+    border: none;
+
+    font-size: 40px;
+
+    width: 400px;
+    height: 50px;
+
+    box-shadow: 0 8px 16px rgba(62, 134, 127, 0.5);
+
+    align-self: center;
+}                                                                                                       
+
+main #botao:hover{
+    transition: 400ms;
+    background-color: rgb(93, 179, 170);
+    color: #f3f3f3;
+}
+
+footer{
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.pezinho a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+.pezinho a:hover{
+    font-weight: bold;
+    color: #f53279;
+    transition: 100ms;
+}
+
+.forma1{
+    box-shadow: 0 8px 16px rgba(62, 134, 127, 0.5);
+}
+
+.forma1, .forma2 {
+    background-color: #f3f3f3;
+
+    height: 100px;
+    width: 1000px;
+
+    border-radius: 67px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.forma2 {
+    background-color: #ffa4cd;
+
+    height: 90px;
+    width: 900px;
+
+    font-size: 60px;
+    font-weight: bold;
+
+    color: #f3f3f3;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #f3f3f3;
+    font-size: 80px;
+
+    height: 60%;
+    max-height: 100%;
+}
+
+#title{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 150px;
+    margin: 0;
+    color: #f53279;
+}
