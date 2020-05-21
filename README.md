@@ -1,2 +1,2 @@
-# captal-rio-virtual
+# captalario-virtual
 contador de realizações
