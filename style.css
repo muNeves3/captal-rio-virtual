@@ -1,10 +1,13 @@
 *{
-    box-sizing: border-box;
-    
+    -webkit-box-sizing: border-box;
+	-moz-transition-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body{
-    background-image: linear-gradient( to left, white, rgb(0, 247, 251) ); 
+    /*Usar Linear Gradient p/ ficar melhor*/    
+    background-image: linear-gradient( to bottom, white, rgb(0, 247, 251) ); 
+    /*background-color: #79DBD2;*/
 
     margin: 0;
     width: 100%;
@@ -133,4 +136,127 @@ header{
     font-size: 150px;
     margin: 0;
     color: #f53279;
+}
+
+#modal{
+    background-image: linear-gradient( to left, #f53279, rgb(93, 179, 170)); 
+
+    position: absolute;
+    top: 0;
+    width: 120vw;
+    height: 120vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+#modal .content{
+     margin-top: 128px;
+     color: white;
+}
+
+#modal .content h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#modal form{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-wrapper{
+    margin: 16px 0;
+  
+}
+
+form input,form textarea{
+    font-family: 'Roboto', sans-serif;    
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #f3f3f3;
+    outline: none;
+
+}
+
+form label{
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+}
+
+form button{
+    background: white;
+    width: 60px;
+    border-radius: 5px;
+    color: black ;
+    font-family: 'Roboto', sans-serif; 
+    border: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(93, 179, 170);
+    color: whitesmoke;
+    transition: 170ms;
+    text-decoration: none;
+}
+
+#modal.hide{
+    display: none;
+}
+
+button#AAA{
+    display: flex;
+    background: #f53279;
+    color: white;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 0;
+    width: 70px;
+
+
+    position: absolute;
+  
+
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 20px;
+
+    width: 200px;
+    height: 30px;
+
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form a{
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+
+    margin-top: 8px;
+
+    cursor: pointer;
+
+    border: 1px auto #f3f3f3;
+}
+
+form a:hover{
+    color: white;
+    background-color: rgb(93, 179, 170);
+    transition: 170ms;
+    text-decoration: none;
 }
